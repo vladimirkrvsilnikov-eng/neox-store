@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEOX STORE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neox Store — curated streetwear & archive pieces">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">NEOX<br>STORE</div>
+  <div class="lang">
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('ru')">RU</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 id="heroTitle"></h1>
+  <p id="heroSub"></p>
+  <a href="#shop" class="btn" id="heroBtn"></a>
+</section>
+
+<section id="shop" class="shop">
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Distressed Archive Denim Pants</h3>
+    <p>1200</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Y2K Embroidered Wide Jeans</h3>
+    <p>1200</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Graphic Zip Hoodie – Archive Style</h3>
+    <p>1150</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Dark Grey Graphic Zip Hoodie</h3>
+    <p>1150</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Minimal White High-Top Sneakers</h3>
+    <p>2200</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Balenciaga Statement Sneakers</h3>
+    <p>2700</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Futuristic Chunky Sneakers</h3>
+    <p>2600</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Graphic Longsleeve – Vintage Print</h3>
+    <p>700</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>Statement Metal Buckle Belt</h3>
+    <p>550</p>
+    <a href="https://t.me/urbnxneox" class="buy">BUY → Telegram</a>
+  </div>
+
+</section>
+
+<footer>
+  <p class="disc">
+    All items are curated and sourced independently.<br>
+    Neox Store is not affiliated with listed brands.
+  </p>
+  <p>© NEOX STORE</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
